@@ -1,0 +1,5 @@
+app.get("/about", (req, res) => {
+    res.header("Connection", "close");
+    const data = "You've done!";
+    res.send(`${data}\n`);
+});
